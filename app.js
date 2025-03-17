@@ -42,4 +42,5 @@ function sortearAmigo() {
         alert("Não há amigos disponíveis para sortear.");
         return;
     }
-
+ // Gerar um índice aleatório
+ let indiceAleatorio = Math.floor(Math.random() * amigos.length);
