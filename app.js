@@ -3,7 +3,7 @@ let amigos = [];
 function adicionarAmigo() {
     "Ana, Maria ,Bruna,Joice";
     // Captura o valor do campo de entrada
-    let campoEntrada = document.getElementById("nomeAmigo");
+    let campoEntrada = document.getElementById("Ana");
     let nome = campoEntrada.value;
 
     // Valida a entrada
