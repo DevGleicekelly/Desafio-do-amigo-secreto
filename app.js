@@ -44,3 +44,8 @@ function sortearAmigo() {
     }
  // Gerar um índice aleatório
  let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+  // Obter o nome sorteado
+  let amigoSorteado = amigos[indiceAleatorio];
+   // Mostrar o resultado
+   let resultado = document.getElementById("resultado");
+   resultado.innerHTML = `Amigo sorteado: ${amigoSorteado}`;}
