@@ -38,5 +38,8 @@ function exibirAmigos() {
 }
 function sortearAmigo() {
     // Validar que há amigos disponíveis
-
+    if (amigos.length === 0) {
+        alert("Não há amigos disponíveis para sortear.");
+        return;
+    }
 
