@@ -1,9 +1,8 @@
 let amigos = [];
 
 function adicionarAmigo() {
-    "Ana, Maria ,Bruna,Joice";
     // Captura o valor do campo de entrada
-    let campoEntrada = document.getElementById("Ana");
+    let campoEntrada = document.getElementById("nomeAmigo");
     let nome = campoEntrada.value;
 
     // Valida a entrada
@@ -22,7 +21,7 @@ function adicionarAmigo() {
 
 function exibirAmigos() {
     // Obter o elemento da lista
-    let lista = document.getElementById("Ana, Maria ,Bruna,Joice");
+    let lista = document.getElementById("listaAmigos");
 
     // Limpar a lista existente
     lista.innerHTML = "";
@@ -37,5 +36,7 @@ function exibirAmigos() {
         lista.appendChild(item);
     }
 }
+function sortearAmigo() {
+    // Validar que há amigos disponíveis
 
 
