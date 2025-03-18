@@ -2,7 +2,7 @@ let amigos = [];
 
 function adicionarAmigo() {
     // Captura o valor do campo de entrada
-    let campoEntrada = document.getElementById("nomeAmigo");
+    let campoEntrada = document.getElementById("amigo");
     let nome = campoEntrada.value;
 
     // Valida a entrada
@@ -48,4 +48,4 @@ function sortearAmigo() {
   let amigoSorteado = amigos[indiceAleatorio];
    // Mostrar o resultado
    let resultado = document.getElementById("resultado");
-   resultado.innerHTML = `Amigo sorteado: ${amigoSorteado}`;}
+   resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;}
